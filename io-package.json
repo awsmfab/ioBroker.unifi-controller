@@ -1,0 +1,76 @@
+{
+    "common": {
+        "name": "unifi-controller",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "UniFi Controller",
+        "titleLang": {
+            "en": "UniFi Controller",
+            "de": "UniFi-Controller",
+            "ru": "UniFi Controller",
+            "pt": "Controlador UniFi",
+            "nl": "UniFi-controller",
+            "fr": "Contrôleur UniFi",
+            "it": "Controller UniFi",
+            "es": "Controlador UniFi",
+            "pl": "Kontroler UniFi",
+            "zh-cn": "UniFi控制器"
+        },
+        "desc": {
+            "en": "Communicates with a UniFi-Controller",
+            "de": "Kommuniziert mit einem UniFi-Controller",
+            "ru": "Общается с UniFi-контроллером",
+            "pt": "Comunica-se com um controlador UniFi",
+            "nl": "Communiceert met een UniFi-controller",
+            "fr": "Communique avec un contrôleur UniFi",
+            "it": "Comunica con un controller UniFi",
+            "es": "Se comunica con un controlador UniFi",
+            "pl": "Komunikuje się z kontrolerem UniFi",
+            "zh-cn": "与UniFi控制器通信"
+        },
+        "authors": [
+            "awsmfab <fabian@awsmdev.de>"
+        ],
+        "keywords": [
+            "unifi",
+            "wifi",
+            "network"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "unifi-controller.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/awsmfab/ioBroker.unifi-controller/master/admin/unifi-controller.png",
+        "readme": "https://github.com/awsmfab/ioBroker.unifi-controller/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "network",
+        "compact": true,
+        "materialize": true,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
